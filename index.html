@@ -3,48 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Clube das Winx </title>
+    <title>Clube das Winx</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        #p1 {
+            font-size: 25px;
+        }
+        .p2 {
+            font-size: 30px;
+        }
+        .p3 {
+            font-size: 35px;
+        }
+        .center {
+            text-align: center;
+        }
+        .cabecalho {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .titulo {
+            margin-top: 30px; /* Espaçamento entre o menu e o título */
+            text-align: center;
+        }
+
+        
+        body {
+            background-color: #fadce1; /* Define o fundo rosa claro */
+        }
+
+    </style>
 </head>
 <body>
-    <img src="assets/img/Aestetic Winx Club Эстетика Винкс Клуб.jpeg" alt="Imagem">
 
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato </a>
-        </li>
-        <li>
-            <a href="https://winx-club.fandom.com/wiki/Winx_Club_Wiki" target="_blank"> WikiWinx </a>
-        </li>
+    <div class="cabecalho">
+        <img src="assets/img/Aestetic Winx Club Эстетика Винкс Клуб.jpeg" alt="Imagem">
+    </div>
+
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="https://winx-club.fandom.com/wiki/Winx_Club_Wiki" target="_blank">WikiWinx</a></li>
     </ul>
 
-    <h1> Quem são as Winx? </h1>
-    <p>O Clube das Winx é uma série animada baseada nas aventuras de seis fadas 
-        muito estilosas. Liderado pela Bloom, a mais poderosa das Winx, o grupo 
-        também é composto por Stella, uma princesa sempre otimista; Flora, gentil
-        e carinhosa; Aisha, destemida e decidida; Musa, com seu talento musical; e
-        Tecna, com sua magia tecnológica.</p>
+    <h1 class="titulo">Quem são as Winx?</h1>
 
-        <img src="assets/img/ENCHANTIX-gruppo.png" alt="Imagem">
+    <div class="container">
+        <div class="p-30">
+            <p>O Clube das Winx é uma série animada baseada nas aventuras de seis fadas 
+                muito estilosas. Liderado pela Bloom, a mais poderosa das Winx, o grupo 
+                também é composto por Stella, uma princesa sempre otimista; Flora, gentil
+                e carinhosa; Aisha, destemida e decidida; Musa, com seu talento musical; e
+                Tecna, com sua magia tecnológica.
+            </p>    
+            <p style="font-size: 20px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis velit ipsa, architecto, porro harum adipisci aspernatur illo laborum quas molestiae veritatis quaerat libero hic veniam dolorem voluptatem doloremque. Odit, molestiae.
+            </p>
+            <p id="p1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat in 
+                veniam modi debitis rem ad aspernatur expedita et? Libero aspernatur doloribus 
+                nemo ipsa repudiandae nobis odio aliquam dolorum provident?
+            </p>
+            <p class="p2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla eos nesciunt dignissimos error minima sit? Ab odit laboriosam modi debitis, dolorem, voluptas nesciunt inventore natus explicabo, fuga totam aut vero.
+            </p>
+            <p class="center p3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit aperiam eius laboriosam odit amet eveniet quod reiciendis adipisci quia ad unde, expedita, nulla consectetur nisi enim reprehenderit. Laudantium, dolore nam.
+            </p>
+            <p class="center2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum error! Et ipsum impedit quo magnam, tempore, quidem iste distinctio quibusdam voluptatibus inventore iusto aliquam odit quam nulla. Ut, odit!
+            </p>
+        </div> 
+        <div>
+            <img src="assets/img/ENCHANTIX-gruppo.png" alt="Imagem">
+        </div>
+    </div>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis velit ipsa, architecto, porro harum adipisci aspernatur illo laborum quas molestiae veritatis quaerat libero hic veniam dolorem voluptatem doloremque. Odit, molestiae.
-    </p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat in veniam modi debitis rem ad aspernatur expedita et? Libero aspernatur doloribus nemo ipsa repudiandae nobis odio aliquam dolorum provident?</p>
+    <h3 class="center">Abertura da Série</h3>
 
-    <h3> Abertura da Série </h3>
-
-    <iframe width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/p5RrjgMoJ4k?si=QKbvT8sxpuXcJOW_" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen
-    ></iframe>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/p5RrjgMoJ4k?si=QKbvT8sxpuXcJOW_" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  
 
 </body>
 </html>

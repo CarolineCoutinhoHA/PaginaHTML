@@ -1,0 +1,92 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+.video {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.informacoes {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+#menu {
+    display: flex;
+    justify-content: center; /* Centraliza o menu */
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+#menu li {
+    margin: 0 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color:palevioletred
+}
+
+.titulo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: #fadce1; /* Define o fundo rosa claro */
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.informacoes div {
+    flex: 1;
+}
+
+.info-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info-img img {
+    max-width: 50%;
+    height: auto;
+}
+
+.p-30 {
+    padding: 40px;
+}
+
+.br-50 {
+    border-radius: 50%; /* Torna a imagem redonda */
+    padding: 50px;
+}
+
+.wh-300 {
+    width: 900px; /* Aumenta a largura */
+    height: 900px; /* Aumenta a altura para ser igual à largura */
+    object-fit: cover; /* Garante que a imagem se ajuste dentro do círculo */
+}
+
+
+
